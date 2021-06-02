@@ -1,0 +1,1976 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[t ~ __interrupt . k ]
+[t T1 __interrupt ]
+"465 D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 465:     struct {
+[s S20 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S20 . RBIF INTF T0IF RBIE INTE T0IE PEIE GIE ]
+"475
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 475:     struct {
+[s S21 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S21 . . TMR0IF . TMR0IE ]
+"464
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 464: typedef union {
+[u S19 `S20 1 `S21 1 ]
+[n S19 . . . ]
+"482
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 482: extern volatile INTCONbits_t INTCONbits __attribute__((address(0x00B)));
+[v _INTCONbits `VS19 ~T0 @X0 0 e@11 ]
+"296
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 296:     struct {
+[s S14 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S14 . RC0 RC1 RC2 RC3 RC4 RC5 RC6 RC7 ]
+"295
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 295: typedef union {
+[u S13 `S14 1 ]
+[n S13 . . ]
+"307
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 307: extern volatile PORTCbits_t PORTCbits __attribute__((address(0x007)));
+[v _PORTCbits `VS13 ~T0 @X0 0 e@7 ]
+"59
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 59: extern volatile unsigned char TMR0 __attribute__((address(0x001)));
+[v _TMR0 `Vuc ~T0 @X0 0 e@1 ]
+"58 machorrobot.c
+[; ;machorrobot.c: 58: char cicloDeTrabajo(char valor);
+[v _cicloDeTrabajo `(uc ~T0 @X0 0 ef1`uc ]
+"358 D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 358:     struct {
+[s S16 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S16 . RD0 RD1 RD2 RD3 RD4 RD5 RD6 RD7 ]
+"357
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 357: typedef union {
+[u S15 `S16 1 ]
+[n S15 . . ]
+"369
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 369: extern volatile PORTDbits_t PORTDbits __attribute__((address(0x008)));
+[v _PORTDbits `VS15 ~T0 @X0 0 e@8 ]
+"4322
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 4322: extern volatile __bit T0IF __attribute__((address(0x5A)));
+[v _T0IF `Vb ~T0 @X0 0 e@90 ]
+"543
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 543:     struct {
+[s S23 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S23 . TMR1IF TMR2IF CCP1IF SSPIF TXIF RCIF ADIF ]
+"542
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 542: typedef union {
+[u S22 `S23 1 ]
+[n S22 . . ]
+"553
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 553: extern volatile PIR1bits_t PIR1bits __attribute__((address(0x00C)));
+[v _PIR1bits `VS22 ~T0 @X0 0 e@12 ]
+"1140
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1140: extern volatile unsigned char RCREG __attribute__((address(0x01A)));
+[v _RCREG `Vuc ~T0 @X0 0 e@26 ]
+"1238
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1238: extern volatile unsigned char ADRESH __attribute__((address(0x01E)));
+[v _ADRESH `Vuc ~T0 @X0 0 e@30 ]
+"1251
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1251:     struct {
+[s S49 :1 `uc 1 :1 `uc 1 :4 `uc 1 :2 `uc 1 ]
+[n S49 . ADON GO_nDONE CHS ADCS ]
+"1257
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1257:     struct {
+[s S50 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S50 . . GO CHS0 CHS1 CHS2 CHS3 ADCS0 ADCS1 ]
+"1267
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1267:     struct {
+[s S51 :1 `uc 1 :1 `uc 1 ]
+[n S51 . . nDONE ]
+"1271
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1271:     struct {
+[s S52 :1 `uc 1 :1 `uc 1 ]
+[n S52 . . GO_DONE ]
+"1250
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1250: typedef union {
+[u S48 `S49 1 `S50 1 `S51 1 `S52 1 ]
+[n S48 . . . . . ]
+"1276
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1276: extern volatile ADCON0bits_t ADCON0bits __attribute__((address(0x01F)));
+[v _ADCON0bits `VS48 ~T0 @X0 0 e@31 ]
+"650
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 650: extern volatile unsigned short TMR1 __attribute__((address(0x00E)));
+[v _TMR1 `Vus ~T0 @X0 0 e@14 ]
+[p mainexit ]
+"3387
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3387: extern volatile unsigned char ANSEL __attribute__((address(0x188)));
+[v _ANSEL `Vuc ~T0 @X0 0 e@392 ]
+"3449
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3449: extern volatile unsigned char ANSELH __attribute__((address(0x189)));
+[v _ANSELH `Vuc ~T0 @X0 0 e@393 ]
+"1416
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1416: extern volatile unsigned char TRISA __attribute__((address(0x085)));
+[v _TRISA `Vuc ~T0 @X0 0 e@133 ]
+"1422
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1422:     struct {
+[s S57 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S57 . TRISA0 TRISA1 TRISA2 TRISA3 TRISA4 TRISA5 TRISA6 TRISA7 ]
+"1421
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1421: typedef union {
+[u S56 `S57 1 ]
+[n S56 . . ]
+"1433
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1433: extern volatile TRISAbits_t TRISAbits __attribute__((address(0x085)));
+[v _TRISAbits `VS56 ~T0 @X0 0 e@133 ]
+"1540
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1540: extern volatile unsigned char TRISC __attribute__((address(0x087)));
+[v _TRISC `Vuc ~T0 @X0 0 e@135 ]
+"1602
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1602: extern volatile unsigned char TRISD __attribute__((address(0x088)));
+[v _TRISD `Vuc ~T0 @X0 0 e@136 ]
+"1478
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1478: extern volatile unsigned char TRISB __attribute__((address(0x086)));
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"1484
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1484:     struct {
+[s S59 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S59 . TRISB0 TRISB1 TRISB2 TRISB3 TRISB4 TRISB5 TRISB6 TRISB7 ]
+"1483
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1483: typedef union {
+[u S58 `S59 1 ]
+[n S58 . . ]
+"1495
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1495: extern volatile TRISBbits_t TRISBbits __attribute__((address(0x086)));
+[v _TRISBbits `VS58 ~T0 @X0 0 e@134 ]
+"234
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 234:     struct {
+[s S12 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S12 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
+"233
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 233: typedef union {
+[u S11 `S12 1 ]
+[n S11 . . ]
+"245
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 245: extern volatile PORTBbits_t PORTBbits __attribute__((address(0x006)));
+[v _PORTBbits `VS11 ~T0 @X0 0 e@6 ]
+"778
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 778:     struct {
+[s S31 :2 `uc 1 :1 `uc 1 :4 `uc 1 ]
+[n S31 . T2CKPS TMR2ON TOUTPS ]
+"783
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 783:     struct {
+[s S32 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S32 . T2CKPS0 T2CKPS1 . TOUTPS0 TOUTPS1 TOUTPS2 TOUTPS3 ]
+"777
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 777: typedef union {
+[u S30 `S31 1 `S32 1 ]
+[n S30 . . . ]
+"793
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 793: extern volatile T2CONbits_t T2CONbits __attribute__((address(0x012)));
+[v _T2CONbits `VS30 ~T0 @X0 0 e@18 ]
+"1174
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1174:     struct {
+[s S46 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S46 . CCP2M DC2B0 DC2B1 ]
+"1179
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1179:     struct {
+[s S47 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S47 . CCP2M0 CCP2M1 CCP2M2 CCP2M3 CCP2Y CCP2X ]
+"1173
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1173: typedef union {
+[u S45 `S46 1 `S47 1 ]
+[n S45 . . . ]
+"1188
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1188: extern volatile CCP2CONbits_t CCP2CONbits __attribute__((address(0x01D)));
+[v _CCP2CONbits `VS45 ~T0 @X0 0 e@29 ]
+"947
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 947:     struct {
+[s S37 :4 `uc 1 :2 `uc 1 :2 `uc 1 ]
+[n S37 . CCP1M DC1B P1M ]
+"952
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 952:     struct {
+[s S38 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S38 . CCP1M0 CCP1M1 CCP1M2 CCP1M3 DC1B0 DC1B1 P1M0 P1M1 ]
+"962
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 962:     struct {
+[s S39 :4 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S39 . . CCP1Y CCP1X ]
+"946
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 946: typedef union {
+[u S36 `S37 1 `S38 1 `S39 1 ]
+[n S36 . . . . ]
+"968
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 968: extern volatile CCP1CONbits_t CCP1CONbits __attribute__((address(0x017)));
+[v _CCP1CONbits `VS36 ~T0 @X0 0 e@23 ]
+"2041
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2041: extern volatile unsigned char PR2 __attribute__((address(0x092)));
+[v _PR2 `Vuc ~T0 @X0 0 e@146 ]
+"1352
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1352:     struct {
+[s S54 :3 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S54 . PS PSA T0SE T0CS INTEDG nRBPU ]
+"1360
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1360:     struct {
+[s S55 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S55 . PS0 PS1 PS2 ]
+"1351
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1351: typedef union {
+[u S53 `S54 1 `S55 1 ]
+[n S53 . . . ]
+"1366
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1366: extern volatile OPTION_REGbits_t OPTION_REGbits __attribute__((address(0x081)));
+[v _OPTION_REGbits `VS53 ~T0 @X0 0 e@129 ]
+"64 machorrobot.c
+[; ;machorrobot.c: 64: void initUart();
+[v _initUart `(v ~T0 @X0 0 e? ]
+"3505 D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3505:     struct {
+[s S141 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 ]
+[n S141 . RD WR WREN WRERR . EEPGD ]
+"3504
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3504: typedef union {
+[u S140 `S141 1 ]
+[n S140 . . ]
+"3514
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3514: extern volatile EECON1bits_t EECON1bits __attribute__((address(0x18C)));
+[v _EECON1bits `VS140 ~T0 @X0 0 e@396 ]
+"2977
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2977: extern volatile unsigned char ADCON1 __attribute__((address(0x09F)));
+[v _ADCON1 `Vuc ~T0 @X0 0 e@159 ]
+"677
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 677:     struct {
+[s S27 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S27 . TMR1ON TMR1CS nT1SYNC T1OSCEN T1CKPS TMR1GE T1GINV ]
+"686
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 686:     struct {
+[s S28 :2 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S28 . . T1INSYNC . T1CKPS0 T1CKPS1 . T1GIV ]
+"695
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 695:     struct {
+[s S29 :2 `uc 1 :1 `uc 1 ]
+[n S29 . . T1SYNC ]
+"676
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 676: typedef union {
+[u S26 `S27 1 `S28 1 `S29 1 ]
+[n S26 . . . . ]
+"700
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 700: extern volatile T1CONbits_t T1CONbits __attribute__((address(0x010)));
+[v _T1CONbits `VS26 ~T0 @X0 0 e@16 ]
+"166
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 166: extern volatile unsigned char PORTA __attribute__((address(0x005)));
+[v _PORTA `Vuc ~T0 @X0 0 e@5 ]
+"68 machorrobot.c
+[; ;machorrobot.c: 68: void savePosition();
+[v _savePosition `(v ~T0 @X0 0 e? ]
+"67
+[; ;machorrobot.c: 67: void readPosition();
+[v _readPosition `(v ~T0 @X0 0 e? ]
+"60
+[; ;machorrobot.c: 60: void aletear();
+[v _aletear `(v ~T0 @X0 0 e? ]
+"172 D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 172:     struct {
+[s S10 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S10 . RA0 RA1 RA2 RA3 RA4 RA5 RA6 RA7 ]
+"171
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 171: typedef union {
+[u S9 `S10 1 ]
+[n S9 . . ]
+"183
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 183: extern volatile PORTAbits_t PORTAbits __attribute__((address(0x005)));
+[v _PORTAbits `VS9 ~T0 @X0 0 e@5 ]
+[v F1409 `(v ~T0 @X0 1 tf1`ul ]
+"92 D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\pic.h
+[v __delay `JF1409 ~T0 @X0 0 e ]
+[p i __delay ]
+"61 machorrobot.c
+[; ;machorrobot.c: 61: void moonwalk();
+[v _moonwalk `(v ~T0 @X0 0 e? ]
+"66
+[; ;machorrobot.c: 66: void ejecutarComando();
+[v _ejecutarComando `(v ~T0 @X0 0 e? ]
+"927 D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 927: extern volatile unsigned char CCPR1L __attribute__((address(0x015)));
+[v _CCPR1L `Vuc ~T0 @X0 0 e@21 ]
+"1154
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1154: extern volatile unsigned char CCPR2L __attribute__((address(0x01B)));
+[v _CCPR2L `Vuc ~T0 @X0 0 e@27 ]
+"2562
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2562:     struct {
+[s S103 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S103 . TX9D TRMT BRGH SENDB SYNC TXEN TX9 CSRC ]
+"2572
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2572:     struct {
+[s S104 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S104 . TXD8 . nTX8 ]
+"2577
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2577:     struct {
+[s S105 :6 `uc 1 :1 `uc 1 ]
+[n S105 . . TX8_9 ]
+"2561
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2561: typedef union {
+[u S102 `S103 1 `S104 1 `S105 1 ]
+[n S102 . . . . ]
+"2582
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2582: extern volatile TXSTAbits_t TXSTAbits __attribute__((address(0x098)));
+[v _TXSTAbits `VS102 ~T0 @X0 0 e@152 ]
+"1044
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1044:     struct {
+[s S41 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S41 . RX9D OERR FERR ADDEN CREN SREN RX9 SPEN ]
+"1054
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1054:     struct {
+[s S42 :1 `uc 1 :5 `uc 1 :1 `uc 1 ]
+[n S42 . RCD8 . RC9 ]
+"1059
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1059:     struct {
+[s S43 :6 `uc 1 :1 `uc 1 ]
+[n S43 . . nRC8 ]
+"1063
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1063:     struct {
+[s S44 :6 `uc 1 :1 `uc 1 ]
+[n S44 . . RC8_9 ]
+"1043
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1043: typedef union {
+[u S40 `S41 1 `S42 1 `S43 1 `S44 1 ]
+[n S40 . . . . . ]
+"1068
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1068: extern volatile RCSTAbits_t RCSTAbits __attribute__((address(0x018)));
+[v _RCSTAbits `VS40 ~T0 @X0 0 e@24 ]
+"2642
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2642: extern volatile unsigned char SPBRG __attribute__((address(0x099)));
+[v _SPBRG `Vuc ~T0 @X0 0 e@153 ]
+"1708
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1708:     struct {
+[s S67 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S67 . TMR1IE TMR2IE CCP1IE SSPIE TXIE RCIE ADIE ]
+"1707
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1707: typedef union {
+[u S66 `S67 1 ]
+[n S66 . . ]
+"1718
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1718: extern volatile PIE1bits_t PIE1bits __attribute__((address(0x08C)));
+[v _PIE1bits `VS66 ~T0 @X0 0 e@140 ]
+"1133
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1133: extern volatile unsigned char TXREG __attribute__((address(0x019)));
+[v _TXREG `Vuc ~T0 @X0 0 e@25 ]
+"67 D:\machorrin\Programas\mplab\pic\include\c90\stdlib.h
+[; ;D:\machorrin\Programas\mplab\pic\include\c90\stdlib.h: 67: extern int atoi(const char *);
+[v _atoi `(i ~T0 @X0 0 ef1`*Cuc ]
+"3257 D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3257: extern volatile unsigned char EEADR __attribute__((address(0x10D)));
+[v _EEADR `Vuc ~T0 @X0 0 e@269 ]
+"3271
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3271: extern volatile unsigned char EEADRH __attribute__((address(0x10F)));
+[v _EEADRH `Vuc ~T0 @X0 0 e@271 ]
+"3245
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3245: extern volatile unsigned char EEDATA __attribute__((address(0x10C)));
+[v _EEDATA `Vuc ~T0 @X0 0 e@268 ]
+"3544
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3544: extern volatile unsigned char EECON2 __attribute__((address(0x18D)));
+[v _EECON2 `Vuc ~T0 @X0 0 e@397 ]
+"113 D:\machorrin\Programas\mplab\pic\include\c90\stdlib.h
+[; ;D:\machorrin\Programas\mplab\pic\include\c90\stdlib.h: 113: extern char * itoa(char * buf, int val, int base);
+[v _itoa `(*uc ~T0 @X0 0 ef3`*uc`i`i ]
+"54 D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"230
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 230: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"292
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 292: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"354
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 354: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"416
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 416: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"454
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 454: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"461
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 461: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"539
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 539: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"595
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 595: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"652
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 652: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"659
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 659: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"666
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 666: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"673
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 673: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"767
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 767: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"774
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 774: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"845
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 845: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"852
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 852: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"922
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 922: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"929
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 929: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"936
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 936: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"943
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 943: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"1040
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1040: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1135
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1135: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1142
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1142: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1149
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1149: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1156
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1156: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1163
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1163: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1170
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1170: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1240
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1240: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1247
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1247: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1348
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1348: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1418
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1418: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1480
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1480: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1542
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1542: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1604
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1604: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1666
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1666: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1704
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1704: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1760
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1760: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1817
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1817: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1864
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1864: __asm("OSCCON equ 08Fh");
+[; <" OSCCON equ 08Fh ;# ">
+"1929
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1929: __asm("OSCTUNE equ 090h");
+[; <" OSCTUNE equ 090h ;# ">
+"1981
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 1981: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"2043
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2043: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"2050
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2050: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"2057
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2057: __asm("SSPMSK equ 093h");
+[; <" SSPMSK equ 093h ;# ">
+"2062
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2062: __asm("MSK equ 093h");
+[; <" MSK equ 093h ;# ">
+"2179
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2179: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2348
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2348: __asm("WPUB equ 095h");
+[; <" WPUB equ 095h ;# ">
+"2418
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2418: __asm("IOCB equ 096h");
+[; <" IOCB equ 096h ;# ">
+"2488
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2488: __asm("VRCON equ 097h");
+[; <" VRCON equ 097h ;# ">
+"2558
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2558: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2644
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2644: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2706
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2706: __asm("SPBRGH equ 09Ah");
+[; <" SPBRGH equ 09Ah ;# ">
+"2776
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2776: __asm("PWM1CON equ 09Bh");
+[; <" PWM1CON equ 09Bh ;# ">
+"2846
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2846: __asm("ECCPAS equ 09Ch");
+[; <" ECCPAS equ 09Ch ;# ">
+"2928
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2928: __asm("PSTRCON equ 09Dh");
+[; <" PSTRCON equ 09Dh ;# ">
+"2972
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2972: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2979
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 2979: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"3013
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3013: __asm("WDTCON equ 0105h");
+[; <" WDTCON equ 0105h ;# ">
+"3066
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3066: __asm("CM1CON0 equ 0107h");
+[; <" CM1CON0 equ 0107h ;# ">
+"3131
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3131: __asm("CM2CON0 equ 0108h");
+[; <" CM2CON0 equ 0108h ;# ">
+"3196
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3196: __asm("CM2CON1 equ 0109h");
+[; <" CM2CON1 equ 0109h ;# ">
+"3247
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3247: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"3252
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3252: __asm("EEDAT equ 010Ch");
+[; <" EEDAT equ 010Ch ;# ">
+"3259
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3259: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"3266
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3266: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"3273
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3273: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"3280
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3280: __asm("SRCON equ 0185h");
+[; <" SRCON equ 0185h ;# ">
+"3337
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3337: __asm("BAUDCTL equ 0187h");
+[; <" BAUDCTL equ 0187h ;# ">
+"3389
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3389: __asm("ANSEL equ 0188h");
+[; <" ANSEL equ 0188h ;# ">
+"3451
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3451: __asm("ANSELH equ 0189h");
+[; <" ANSELH equ 0189h ;# ">
+"3501
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3501: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"3546
+[; ;D:/machorrin/Programas/mplab/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h: 3546: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"11 machorrobot.c
+[p x FOSC  =  INTRC_NOCLKOUT ]
+"12
+[p x WDTE  =  OFF        ]
+"13
+[p x PWRTE  =  OFF       ]
+"14
+[p x MCLRE  =  OFF       ]
+"15
+[p x CP  =  OFF          ]
+"16
+[p x CPD  =  OFF         ]
+"17
+[p x BOREN  =  OFF       ]
+"18
+[p x IESO  =  OFF        ]
+"19
+[p x FCMEN  =  OFF       ]
+"20
+[p x LVP  =  OFF         ]
+"23
+[p x BOR4V  =  BOR40V    ]
+"24
+[p x WRT  =  OFF         ]
+"37
+[; ;machorrobot.c: 37: volatile char angulos[] = {64,64,64,64};
+[v _angulos `Vuc ~T0 @X0 -> 4 `i e ]
+[i _angulos
+:U ..
+-> -> 64 `i `uc
+-> -> 64 `i `uc
+-> -> 64 `i `uc
+-> -> 64 `i `uc
+..
+]
+"38
+[; ;machorrobot.c: 38: volatile uint8_t contador = 0;
+[v _contador `Vuc ~T0 @X0 1 e ]
+[i _contador
+-> -> 0 `i `uc
+]
+"39
+[; ;machorrobot.c: 39: volatile char lecturaUart[50];
+[v _lecturaUart `Vuc ~T0 @X0 -> 50 `i e ]
+"40
+[; ;machorrobot.c: 40: volatile char cont = 0;
+[v _cont `Vuc ~T0 @X0 1 e ]
+[i _cont
+-> -> 0 `i `uc
+]
+"42
+[; ;machorrobot.c: 42: volatile char adc1, adc2;
+[v _adc1 `Vuc ~T0 @X0 1 e ]
+[v _adc2 `Vuc ~T0 @X0 1 e ]
+"44
+[; ;machorrobot.c: 44: volatile int tiempo;
+[v _tiempo `Vi ~T0 @X0 1 e ]
+"45
+[; ;machorrobot.c: 45: volatile char leerSensor = 1;
+[v _leerSensor `Vuc ~T0 @X0 1 e ]
+[i _leerSensor
+-> -> 1 `i `uc
+]
+"47
+[; ;machorrobot.c: 47: volatile char comando = 0;
+[v _comando `Vuc ~T0 @X0 1 e ]
+[i _comando
+-> -> 0 `i `uc
+]
+"48
+[; ;machorrobot.c: 48: volatile char numero[4];
+[v _numero `Vuc ~T0 @X0 -> 4 `i e ]
+"49
+[; ;machorrobot.c: 49: volatile char contadorDatos = 0;
+[v _contadorDatos `Vuc ~T0 @X0 1 e ]
+[i _contadorDatos
+-> -> 0 `i `uc
+]
+"50
+[; ;machorrobot.c: 50: volatile char hayComando=0;
+[v _hayComando `Vuc ~T0 @X0 1 e ]
+[i _hayComando
+-> -> 0 `i `uc
+]
+"51
+[; ;machorrobot.c: 51: volatile char ejecutaComando = 0;
+[v _ejecutaComando `Vuc ~T0 @X0 1 e ]
+[i _ejecutaComando
+-> -> 0 `i `uc
+]
+"53
+[; ;machorrobot.c: 53: char portAactual = 0;
+[v _portAactual `uc ~T0 @X0 1 e ]
+[i _portAactual
+-> -> 0 `i `uc
+]
+"54
+[; ;machorrobot.c: 54: char portAanterior = 0;
+[v _portAanterior `uc ~T0 @X0 1 e ]
+[i _portAanterior
+-> -> 0 `i `uc
+]
+"56
+[; ;machorrobot.c: 56: char debug[6];
+[v _debug `uc ~T0 @X0 -> 6 `i e ]
+[v $root$_ISR `(v ~T0 @X0 0 e ]
+"78
+[; ;machorrobot.c: 78: void __attribute__((picinterrupt(("")))) ISR(){
+[v _ISR `(v ~T1 @X0 1 ef ]
+{
+[e :U _ISR ]
+[f ]
+"80
+[; ;machorrobot.c: 80:     if(INTCONbits.T0IF){
+[e $ ! != -> . . _INTCONbits 0 2 `i -> 0 `i 143  ]
+{
+"83
+[; ;machorrobot.c: 83:         switch(contador){
+[e $U 145  ]
+{
+"84
+[; ;machorrobot.c: 84:             case 0 :
+[e :U 146 ]
+"85
+[; ;machorrobot.c: 85:                 PORTCbits.RC0 = 1;
+[e = . . _PORTCbits 0 0 -> -> 1 `i `uc ]
+"86
+[; ;machorrobot.c: 86:                 TMR0 = 0-cicloDeTrabajo(angulos[contador]);
+[e = _TMR0 -> - -> 0 `i -> ( _cicloDeTrabajo (1 *U + &U _angulos * -> _contador `ux -> -> # *U &U _angulos `ui `ux `i `uc ]
+"87
+[; ;machorrobot.c: 87:                 break;
+[e $U 144  ]
+"88
+[; ;machorrobot.c: 88:             case 1:
+[e :U 147 ]
+"89
+[; ;machorrobot.c: 89:                 PORTCbits.RC0 = 0;
+[e = . . _PORTCbits 0 0 -> -> 0 `i `uc ]
+"90
+[; ;machorrobot.c: 90:                 PORTCbits.RC3 = 1;
+[e = . . _PORTCbits 0 3 -> -> 1 `i `uc ]
+"91
+[; ;machorrobot.c: 91:                 TMR0 = 0-cicloDeTrabajo(angulos[contador]);
+[e = _TMR0 -> - -> 0 `i -> ( _cicloDeTrabajo (1 *U + &U _angulos * -> _contador `ux -> -> # *U &U _angulos `ui `ux `i `uc ]
+"92
+[; ;machorrobot.c: 92:                 break;
+[e $U 144  ]
+"93
+[; ;machorrobot.c: 93:             case 2:
+[e :U 148 ]
+"94
+[; ;machorrobot.c: 94:                 PORTCbits.RC3 = 0;
+[e = . . _PORTCbits 0 3 -> -> 0 `i `uc ]
+"95
+[; ;machorrobot.c: 95:                 PORTDbits.RD0 = 1;
+[e = . . _PORTDbits 0 0 -> -> 1 `i `uc ]
+"96
+[; ;machorrobot.c: 96:                 TMR0 = 0-cicloDeTrabajo(angulos[contador]);
+[e = _TMR0 -> - -> 0 `i -> ( _cicloDeTrabajo (1 *U + &U _angulos * -> _contador `ux -> -> # *U &U _angulos `ui `ux `i `uc ]
+"97
+[; ;machorrobot.c: 97:                 break;
+[e $U 144  ]
+"98
+[; ;machorrobot.c: 98:             case 3:
+[e :U 149 ]
+"99
+[; ;machorrobot.c: 99:                 PORTDbits.RD0 = 0;
+[e = . . _PORTDbits 0 0 -> -> 0 `i `uc ]
+"100
+[; ;machorrobot.c: 100:                 PORTDbits.RD1 = 1;
+[e = . . _PORTDbits 0 1 -> -> 1 `i `uc ]
+"101
+[; ;machorrobot.c: 101:                 TMR0 = 0-cicloDeTrabajo(angulos[contador]);
+[e = _TMR0 -> - -> 0 `i -> ( _cicloDeTrabajo (1 *U + &U _angulos * -> _contador `ux -> -> # *U &U _angulos `ui `ux `i `uc ]
+"102
+[; ;machorrobot.c: 102:                 break;
+[e $U 144  ]
+"103
+[; ;machorrobot.c: 103:             case 4:
+[e :U 150 ]
+"104
+[; ;machorrobot.c: 104:                 PORTDbits.RD1 = 0;
+[e = . . _PORTDbits 0 1 -> -> 0 `i `uc ]
+"105
+[; ;machorrobot.c: 105:                 TMR0 = 0;
+[e = _TMR0 -> -> 0 `i `uc ]
+"106
+[; ;machorrobot.c: 106:                 contador = 255;
+[e = _contador -> -> 255 `i `uc ]
+"107
+[; ;machorrobot.c: 107:                 break;
+[e $U 144  ]
+"109
+[; ;machorrobot.c: 109:         }
+}
+[e $U 144  ]
+[e :U 145 ]
+[e [\ -> _contador `i , $ -> 0 `i 146
+ , $ -> 1 `i 147
+ , $ -> 2 `i 148
+ , $ -> 3 `i 149
+ , $ -> 4 `i 150
+ 144 ]
+[e :U 144 ]
+"110
+[; ;machorrobot.c: 110:         contador++;
+[e ++ _contador -> -> 1 `i `Vuc ]
+"111
+[; ;machorrobot.c: 111:         T0IF = 0;
+[e = _T0IF -> -> 0 `i `b ]
+"112
+[; ;machorrobot.c: 112:     }
+}
+[e :U 143 ]
+"114
+[; ;machorrobot.c: 114:     if (PIR1bits.RCIF){
+[e $ ! != -> . . _PIR1bits 0 5 `i -> 0 `i 151  ]
+{
+"115
+[; ;machorrobot.c: 115:         char aux = RCREG;
+[v _aux `uc ~T0 @X0 1 a ]
+[e = _aux -> _RCREG `uc ]
+"116
+[; ;machorrobot.c: 116:         if(!ejecutaComando){
+[e $ ! ! != -> _ejecutaComando `i -> 0 `i 152  ]
+{
+"117
+[; ;machorrobot.c: 117:            switch(aux){
+[e $U 154  ]
+{
+"119
+[; ;machorrobot.c: 119:                case 'A':
+[e :U 155 ]
+"120
+[; ;machorrobot.c: 120:                case 'B':
+[e :U 156 ]
+"121
+[; ;machorrobot.c: 121:                case 'C':
+[e :U 157 ]
+"122
+[; ;machorrobot.c: 122:                case 'D':
+[e :U 158 ]
+"123
+[; ;machorrobot.c: 123:                case 'E':
+[e :U 159 ]
+"124
+[; ;machorrobot.c: 124:                case 'F':
+[e :U 160 ]
+"125
+[; ;machorrobot.c: 125:                    comando = aux;
+[e = _comando _aux ]
+"126
+[; ;machorrobot.c: 126:                    hayComando = 1;
+[e = _hayComando -> -> 1 `i `uc ]
+"127
+[; ;machorrobot.c: 127:                    break;
+[e $U 153  ]
+"128
+[; ;machorrobot.c: 128:                default:
+[e :U 161 ]
+"129
+[; ;machorrobot.c: 129:                    if(hayComando){
+[e $ ! != -> _hayComando `i -> 0 `i 162  ]
+{
+"130
+[; ;machorrobot.c: 130:                        if( aux != ';' && contadorDatos<3){
+[e $ ! && != -> _aux `ui -> 59 `ui < -> _contadorDatos `i -> 3 `i 163  ]
+{
+"131
+[; ;machorrobot.c: 131:                            numero[contadorDatos] = aux;
+[e = *U + &U _numero * -> _contadorDatos `ux -> -> # *U &U _numero `ui `ux _aux ]
+"132
+[; ;machorrobot.c: 132:                            contadorDatos++;
+[e ++ _contadorDatos -> -> 1 `i `Vuc ]
+"134
+[; ;machorrobot.c: 134:                        }else{
+}
+[e $U 164  ]
+[e :U 163 ]
+{
+"135
+[; ;machorrobot.c: 135:                            numero[contadorDatos] = '\0';
+[e = *U + &U _numero * -> _contadorDatos `ux -> -> # *U &U _numero `ui `ux -> -> 0 `ui `uc ]
+"137
+[; ;machorrobot.c: 137:                            ejecutaComando = 1;
+[e = _ejecutaComando -> -> 1 `i `uc ]
+"138
+[; ;machorrobot.c: 138:                            contadorDatos = 0;
+[e = _contadorDatos -> -> 0 `i `uc ]
+"139
+[; ;machorrobot.c: 139:                        }
+}
+[e :U 164 ]
+"141
+[; ;machorrobot.c: 141:                    }
+}
+[e :U 162 ]
+"142
+[; ;machorrobot.c: 142:                    break;
+[e $U 153  ]
+"145
+[; ;machorrobot.c: 145:             }
+}
+[e $U 153  ]
+[e :U 154 ]
+[e [\ -> _aux `i , $ -> -> 65 `ui `i 155
+ , $ -> -> 66 `ui `i 156
+ , $ -> -> 67 `ui `i 157
+ , $ -> -> 68 `ui `i 158
+ , $ -> -> 69 `ui `i 159
+ , $ -> -> 70 `ui `i 160
+ 161 ]
+[e :U 153 ]
+"146
+[; ;machorrobot.c: 146:         }
+}
+[e :U 152 ]
+"151
+[; ;machorrobot.c: 151:     }
+}
+[e :U 151 ]
+"152
+[; ;machorrobot.c: 152:     if (PIR1bits.ADIF){
+[e $ ! != -> . . _PIR1bits 0 6 `i -> 0 `i 165  ]
+{
+"154
+[; ;machorrobot.c: 154:         switch(ADCON0bits.CHS){
+[e $U 167  ]
+{
+"155
+[; ;machorrobot.c: 155:             case 0:
+[e :U 168 ]
+"156
+[; ;machorrobot.c: 156:                 adc1 = ADRESH;
+[e = _adc1 -> _ADRESH `uc ]
+"157
+[; ;machorrobot.c: 157:                 ADCON0bits.CHS = 1;
+[e = . . _ADCON0bits 0 2 -> -> 1 `i `uc ]
+"158
+[; ;machorrobot.c: 158:                 ADCON0bits.GO = 1;
+[e = . . _ADCON0bits 1 1 -> -> 1 `i `uc ]
+"159
+[; ;machorrobot.c: 159:                 break;
+[e $U 166  ]
+"160
+[; ;machorrobot.c: 160:             case 1:
+[e :U 169 ]
+"161
+[; ;machorrobot.c: 161:                 adc2 = ADRESH;
+[e = _adc2 -> _ADRESH `uc ]
+"162
+[; ;machorrobot.c: 162:                 ADCON0bits.CHS = 0;
+[e = . . _ADCON0bits 0 2 -> -> 0 `i `uc ]
+"163
+[; ;machorrobot.c: 163:                 ADCON0bits.GO =1;
+[e = . . _ADCON0bits 1 1 -> -> 1 `i `uc ]
+"164
+[; ;machorrobot.c: 164:                 break;
+[e $U 166  ]
+"165
+[; ;machorrobot.c: 165:         }
+}
+[e $U 166  ]
+[e :U 167 ]
+[e [\ -> . . _ADCON0bits 0 2 `i , $ -> 0 `i 168
+ , $ -> 1 `i 169
+ 166 ]
+[e :U 166 ]
+"167
+[; ;machorrobot.c: 167:         PIR1bits.ADIF = 0;
+[e = . . _PIR1bits 0 6 -> -> 0 `i `uc ]
+"169
+[; ;machorrobot.c: 169:     }
+}
+[e :U 165 ]
+"171
+[; ;machorrobot.c: 171:     if(INTCONbits.INTF){
+[e $ ! != -> . . _INTCONbits 0 1 `i -> 0 `i 170  ]
+{
+"172
+[; ;machorrobot.c: 172:         tiempo = TMR1;
+[e = _tiempo -> _TMR1 `i ]
+"173
+[; ;machorrobot.c: 173:         TMR1 = 0;
+[e = _TMR1 -> -> 0 `i `us ]
+"174
+[; ;machorrobot.c: 174:         INTCONbits.INTF = 0;
+[e = . . _INTCONbits 0 1 -> -> 0 `i `uc ]
+"175
+[; ;machorrobot.c: 175:         leerSensor = 1;
+[e = _leerSensor -> -> 1 `i `uc ]
+"177
+[; ;machorrobot.c: 177:     }
+}
+[e :U 170 ]
+"179
+[; ;machorrobot.c: 179: }
+[e :UE 142 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"181
+[; ;machorrobot.c: 181: void main(void) {
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"182
+[; ;machorrobot.c: 182:     ANSEL = 0; ANSELH = 0;
+[e = _ANSEL -> -> 0 `i `uc ]
+"183
+[; ;machorrobot.c: 183: 
+[e = _ANSELH -> -> 0 `i `uc ]
+"184
+[; ;machorrobot.c: 184:     TRISA = 255;
+[e = _TRISA -> -> 255 `i `uc ]
+"185
+[; ;machorrobot.c: 185:     TRISAbits.TRISA3 = 0;
+[e = . . _TRISAbits 0 3 -> -> 0 `i `uc ]
+"186
+[; ;machorrobot.c: 186:     TRISC = 0;
+[e = _TRISC -> -> 0 `i `uc ]
+"187
+[; ;machorrobot.c: 187:     TRISD = 0;
+[e = _TRISD -> -> 0 `i `uc ]
+"188
+[; ;machorrobot.c: 188:     TRISB = 255;
+[e = _TRISB -> -> 255 `i `uc ]
+"189
+[; ;machorrobot.c: 189:     TRISBbits.TRISB7 = 0;
+[e = . . _TRISBbits 0 7 -> -> 0 `i `uc ]
+"190
+[; ;machorrobot.c: 190:     TRISBbits.TRISB6 = 0;
+[e = . . _TRISBbits 0 6 -> -> 0 `i `uc ]
+"192
+[; ;machorrobot.c: 192:     PORTBbits.RB6 = 1;
+[e = . . _PORTBbits 0 6 -> -> 1 `i `uc ]
+"193
+[; ;machorrobot.c: 193:     PORTBbits.RB7 = 1;
+[e = . . _PORTBbits 0 7 -> -> 1 `i `uc ]
+"194
+[; ;machorrobot.c: 194:     T2CONbits.TOUTPS = 0;
+[e = . . _T2CONbits 0 2 -> -> 0 `i `uc ]
+"195
+[; ;machorrobot.c: 195:     T2CONbits.T2CKPS = 2;
+[e = . . _T2CONbits 0 0 -> -> 2 `i `uc ]
+"197
+[; ;machorrobot.c: 197:     CCP2CONbits.CCP2M = 0b1100;
+[e = . . _CCP2CONbits 0 0 -> -> 12 `i `uc ]
+"198
+[; ;machorrobot.c: 198:     CCP2CONbits.DC2B0 = 0;
+[e = . . _CCP2CONbits 0 1 -> -> 0 `i `uc ]
+"199
+[; ;machorrobot.c: 199:     CCP2CONbits.DC2B1 = 0;
+[e = . . _CCP2CONbits 0 2 -> -> 0 `i `uc ]
+"200
+[; ;machorrobot.c: 200:     CCP1CONbits.CCP1M = 0b1100;
+[e = . . _CCP1CONbits 0 0 -> -> 12 `i `uc ]
+"201
+[; ;machorrobot.c: 201:     CCP1CONbits.P1M = 0;
+[e = . . _CCP1CONbits 0 2 -> -> 0 `i `uc ]
+"202
+[; ;machorrobot.c: 202:     CCP1CONbits.DC1B = 0;
+[e = . . _CCP1CONbits 0 1 -> -> 0 `i `uc ]
+"205
+[; ;machorrobot.c: 205:     T2CONbits.T2CKPS = 0b11;
+[e = . . _T2CONbits 0 0 -> -> 3 `i `uc ]
+"206
+[; ;machorrobot.c: 206:     T2CONbits.TMR2ON = 1;
+[e = . . _T2CONbits 0 1 -> -> 1 `i `uc ]
+"207
+[; ;machorrobot.c: 207:     PR2 = 249;
+[e = _PR2 -> -> 249 `i `uc ]
+"209
+[; ;machorrobot.c: 209:     OPTION_REGbits.T0CS = 0;
+[e = . . _OPTION_REGbits 0 3 -> -> 0 `i `uc ]
+"210
+[; ;machorrobot.c: 210:     OPTION_REGbits.PSA = 0;
+[e = . . _OPTION_REGbits 0 1 -> -> 0 `i `uc ]
+"211
+[; ;machorrobot.c: 211:     OPTION_REGbits.PS = 0b011;
+[e = . . _OPTION_REGbits 0 0 -> -> 3 `i `uc ]
+"214
+[; ;machorrobot.c: 214:     INTCONbits.GIE = 1;
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"215
+[; ;machorrobot.c: 215:     INTCONbits.PEIE = 1;
+[e = . . _INTCONbits 0 6 -> -> 1 `i `uc ]
+"216
+[; ;machorrobot.c: 216:     INTCONbits.T0IE = 1;
+[e = . . _INTCONbits 0 5 -> -> 1 `i `uc ]
+"217
+[; ;machorrobot.c: 217:     TMR0 = 0;
+[e = _TMR0 -> -> 0 `i `uc ]
+"219
+[; ;machorrobot.c: 219:     initUart();
+[e ( _initUart ..  ]
+"224
+[; ;machorrobot.c: 224:     EECON1bits.EEPGD = 0;
+[e = . . _EECON1bits 0 5 -> -> 0 `i `uc ]
+"229
+[; ;machorrobot.c: 229:     ANSEL = 3;
+[e = _ANSEL -> -> 3 `i `uc ]
+"231
+[; ;machorrobot.c: 231:     ADCON0bits.ADCS = 0b01;
+[e = . . _ADCON0bits 0 3 -> -> 1 `i `uc ]
+"232
+[; ;machorrobot.c: 232:     ADCON0bits.CHS = 0;
+[e = . . _ADCON0bits 0 2 -> -> 0 `i `uc ]
+"233
+[; ;machorrobot.c: 233:     ADCON1 = 0;
+[e = _ADCON1 -> -> 0 `i `uc ]
+"234
+[; ;machorrobot.c: 234:     ADCON0bits.ADON = 1;
+[e = . . _ADCON0bits 0 0 -> -> 1 `i `uc ]
+"235
+[; ;machorrobot.c: 235:     ADCON0bits.GO = 1;
+[e = . . _ADCON0bits 1 1 -> -> 1 `i `uc ]
+"241
+[; ;machorrobot.c: 241:     T1CONbits.T1GINV = 1;
+[e = . . _T1CONbits 0 6 -> -> 1 `i `uc ]
+"242
+[; ;machorrobot.c: 242:     T1CONbits.TMR1GE = 1;
+[e = . . _T1CONbits 0 5 -> -> 1 `i `uc ]
+"243
+[; ;machorrobot.c: 243:     T1CONbits.T1CKPS = 0;
+[e = . . _T1CONbits 0 4 -> -> 0 `i `uc ]
+"244
+[; ;machorrobot.c: 244:     T1CONbits.TMR1CS = 0;
+[e = . . _T1CONbits 0 1 -> -> 0 `i `uc ]
+"245
+[; ;machorrobot.c: 245:     T1CONbits.TMR1ON = 1;
+[e = . . _T1CONbits 0 0 -> -> 1 `i `uc ]
+"247
+[; ;machorrobot.c: 247:     TMR1 = 0;
+[e = _TMR1 -> -> 0 `i `us ]
+"249
+[; ;machorrobot.c: 249:     OPTION_REGbits.INTEDG = 0;
+[e = . . _OPTION_REGbits 0 4 -> -> 0 `i `uc ]
+"250
+[; ;machorrobot.c: 250:     INTCONbits.INTE = 1;
+[e = . . _INTCONbits 0 4 -> -> 1 `i `uc ]
+"252
+[; ;machorrobot.c: 252:     numero[0] = ' ';
+[e = *U + &U _numero * -> -> -> 0 `i `ui `ux -> -> # *U &U _numero `ui `ux -> -> 32 `ui `uc ]
+"253
+[; ;machorrobot.c: 253:     numero[1] = ' ';
+[e = *U + &U _numero * -> -> -> 1 `i `ui `ux -> -> # *U &U _numero `ui `ux -> -> 32 `ui `uc ]
+"254
+[; ;machorrobot.c: 254:     numero[2] = ' ';
+[e = *U + &U _numero * -> -> -> 2 `i `ui `ux -> -> # *U &U _numero `ui `ux -> -> 32 `ui `uc ]
+"255
+[; ;machorrobot.c: 255:     numero[3] = '\0';
+[e = *U + &U _numero * -> -> -> 3 `i `ui `ux -> -> # *U &U _numero `ui `ux -> -> 0 `ui `uc ]
+"257
+[; ;machorrobot.c: 257:     PORTA = 0;
+[e = _PORTA -> -> 0 `i `uc ]
+"259
+[; ;machorrobot.c: 259:     while(1){
+[e :U 173 ]
+{
+"260
+[; ;machorrobot.c: 260:         portAanterior = portAactual;
+[e = _portAanterior _portAactual ]
+"261
+[; ;machorrobot.c: 261:         portAactual = PORTA;
+[e = _portAactual -> _PORTA `uc ]
+"263
+[; ;machorrobot.c: 263:         if((portAanterior&0b100)==4 && (portAactual&0b100)==0){
+[e $ ! && == & -> _portAanterior `i -> 4 `i -> 4 `i == & -> _portAactual `i -> 4 `i -> 0 `i 175  ]
+{
+"264
+[; ;machorrobot.c: 264:             savePosition();
+[e ( _savePosition ..  ]
+"265
+[; ;machorrobot.c: 265:         }
+}
+[e :U 175 ]
+"266
+[; ;machorrobot.c: 266:         if((portAanterior&0b10000)==16 && (portAactual&0b10000)==0){
+[e $ ! && == & -> _portAanterior `i -> 16 `i -> 16 `i == & -> _portAactual `i -> 16 `i -> 0 `i 176  ]
+{
+"267
+[; ;machorrobot.c: 267:             readPosition();
+[e ( _readPosition ..  ]
+"268
+[; ;machorrobot.c: 268:         }
+}
+[e :U 176 ]
+"275
+[; ;machorrobot.c: 275:         if (adc1>=adc2 )aletear();
+[e $ ! >= -> _adc1 `i -> _adc2 `i 177  ]
+[e ( _aletear ..  ]
+[e :U 177 ]
+"278
+[; ;machorrobot.c: 278:         if(leerSensor){
+[e $ ! != -> _leerSensor `i -> 0 `i 178  ]
+{
+"279
+[; ;machorrobot.c: 279:             PORTAbits.RA3 = 1;
+[e = . . _PORTAbits 0 3 -> -> 1 `i `uc ]
+"280
+[; ;machorrobot.c: 280:             _delay((unsigned long)((10)*(4000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000000.0 `ul ]
+"281
+[; ;machorrobot.c: 281:             PORTAbits.RA3 = 0;
+[e = . . _PORTAbits 0 3 -> -> 0 `i `uc ]
+"282
+[; ;machorrobot.c: 282:             leerSensor =0;
+[e = _leerSensor -> -> 0 `i `uc ]
+"284
+[; ;machorrobot.c: 284:         }
+}
+[e :U 178 ]
+"287
+[; ;machorrobot.c: 287:         if(tiempo <= 250) moonwalk();
+[e $ ! <= _tiempo -> 250 `i 179  ]
+[e ( _moonwalk ..  ]
+[e :U 179 ]
+"288
+[; ;machorrobot.c: 288:         if(ejecutaComando){
+[e $ ! != -> _ejecutaComando `i -> 0 `i 180  ]
+{
+"289
+[; ;machorrobot.c: 289:             ejecutaComando=0;
+[e = _ejecutaComando -> -> 0 `i `uc ]
+"290
+[; ;machorrobot.c: 290:             hayComando = 0;
+[e = _hayComando -> -> 0 `i `uc ]
+"291
+[; ;machorrobot.c: 291:             ejecutarComando();
+[e ( _ejecutarComando ..  ]
+"293
+[; ;machorrobot.c: 293:         }
+}
+[e :U 180 ]
+"300
+[; ;machorrobot.c: 300:     }
+}
+[e :U 172 ]
+[e $U 173  ]
+[e :U 174 ]
+"302
+[; ;machorrobot.c: 302:     return;
+[e $UE 171  ]
+"303
+[; ;machorrobot.c: 303: }
+[e :UE 171 ]
+}
+"309
+[; ;machorrobot.c: 309: char cicloDeTrabajo(char valor){
+[v _cicloDeTrabajo `(uc ~T0 @X0 1 ef1`uc ]
+{
+[e :U _cicloDeTrabajo ]
+[v _valor `uc ~T0 @X0 1 r1 ]
+[f ]
+"310
+[; ;machorrobot.c: 310:     return valor+31;
+[e ) -> + -> _valor `i -> 31 `i `uc ]
+[e $UE 181  ]
+"311
+[; ;machorrobot.c: 311: }
+[e :UE 181 ]
+}
+"314
+[; ;machorrobot.c: 314: void moveCCPservo(char angle, char servo){
+[v _moveCCPservo `(v ~T0 @X0 1 ef2`uc`uc ]
+{
+[e :U _moveCCPservo ]
+[v _angle `uc ~T0 @X0 1 r1 ]
+[v _servo `uc ~T0 @X0 1 r2 ]
+[f ]
+"315
+[; ;machorrobot.c: 315:     unsigned char valor = cicloDeTrabajo(angle);
+[v _valor `uc ~T0 @X0 1 a ]
+[e = _valor -> ( _cicloDeTrabajo (1 _angle `uc ]
+"317
+[; ;machorrobot.c: 317:     switch(servo){
+[e $U 184  ]
+{
+"318
+[; ;machorrobot.c: 318:         case 1:
+[e :U 185 ]
+"319
+[; ;machorrobot.c: 319:             CCPR1L = valor;
+[e = _CCPR1L _valor ]
+"320
+[; ;machorrobot.c: 320:             break;
+[e $U 183  ]
+"321
+[; ;machorrobot.c: 321:         case 2:
+[e :U 186 ]
+"322
+[; ;machorrobot.c: 322:             CCPR2L = valor;
+[e = _CCPR2L _valor ]
+"323
+[; ;machorrobot.c: 323:             break;
+[e $U 183  ]
+"324
+[; ;machorrobot.c: 324:     }
+}
+[e $U 183  ]
+[e :U 184 ]
+[e [\ -> _servo `i , $ -> 1 `i 185
+ , $ -> 2 `i 186
+ 183 ]
+[e :U 183 ]
+"328
+[; ;machorrobot.c: 328: }
+[e :UE 182 ]
+}
+"330
+[; ;machorrobot.c: 330: void aletear(){
+[v _aletear `(v ~T0 @X0 1 ef ]
+{
+[e :U _aletear ]
+[f ]
+"331
+[; ;machorrobot.c: 331:     PORTBbits.RB6 = 0;
+[e = . . _PORTBbits 0 6 -> -> 0 `i `uc ]
+"333
+[; ;machorrobot.c: 333:     for (char i = 0; i < 6 ; i++) angulos[i] = 64;
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 6 `i 188  ]
+[e $U 189  ]
+[e :U 188 ]
+[e = *U + &U _angulos * -> _i `ux -> -> # *U &U _angulos `ui `ux -> -> 64 `i `uc ]
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 6 `i 188  ]
+[e :U 189 ]
+}
+"334
+[; ;machorrobot.c: 334:     for (char i = 10; i <70 ; i++ ){
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 10 `i `uc ]
+[e $ < -> _i `i -> 70 `i 191  ]
+[e $U 192  ]
+[e :U 191 ]
+{
+"335
+[; ;machorrobot.c: 335:         moveCCPservo(i,1);
+[e ( _moveCCPservo (2 , _i -> -> 1 `i `uc ]
+"336
+[; ;machorrobot.c: 336:         moveCCPservo(i,2);
+[e ( _moveCCPservo (2 , _i -> -> 2 `i `uc ]
+"337
+[; ;machorrobot.c: 337:         _delay((unsigned long)((20)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"338
+[; ;machorrobot.c: 338:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 70 `i 191  ]
+[e :U 192 ]
+}
+"339
+[; ;machorrobot.c: 339:     for (char i = 70; i >10 ; i-- ){
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 70 `i `uc ]
+[e $ > -> _i `i -> 10 `i 194  ]
+[e $U 195  ]
+[e :U 194 ]
+{
+"340
+[; ;machorrobot.c: 340:         moveCCPservo(i,1);
+[e ( _moveCCPservo (2 , _i -> -> 1 `i `uc ]
+"341
+[; ;machorrobot.c: 341:         moveCCPservo(i,2);
+[e ( _moveCCPservo (2 , _i -> -> 2 `i `uc ]
+"342
+[; ;machorrobot.c: 342:         _delay((unsigned long)((20)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"343
+[; ;machorrobot.c: 343:     }
+}
+[e -- _i -> -> 1 `i `uc ]
+[e $ > -> _i `i -> 10 `i 194  ]
+[e :U 195 ]
+}
+"345
+[; ;machorrobot.c: 345: }
+[e :UE 187 ]
+}
+"347
+[; ;machorrobot.c: 347: void moonwalk(){
+[v _moonwalk `(v ~T0 @X0 1 ef ]
+{
+[e :U _moonwalk ]
+[f ]
+"348
+[; ;machorrobot.c: 348:     PORTBbits.RB6 = 1;
+[e = . . _PORTBbits 0 6 -> -> 1 `i `uc ]
+"350
+[; ;machorrobot.c: 350:     moveCCPservo(70,1);
+[e ( _moveCCPservo (2 , -> -> 70 `i `uc -> -> 1 `i `uc ]
+"351
+[; ;machorrobot.c: 351:     moveCCPservo(70,2);
+[e ( _moveCCPservo (2 , -> -> 70 `i `uc -> -> 2 `i `uc ]
+"353
+[; ;machorrobot.c: 353:     angulos[3]= 64;
+[e = *U + &U _angulos * -> -> -> 3 `i `ui `ux -> -> # *U &U _angulos `ui `ux -> -> 64 `i `uc ]
+"354
+[; ;machorrobot.c: 354:     angulos[2]= 64;
+[e = *U + &U _angulos * -> -> -> 2 `i `ui `ux -> -> # *U &U _angulos `ui `ux -> -> 64 `i `uc ]
+"356
+[; ;machorrobot.c: 356:     for (char i = 64; i > 31; i--){
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 64 `i `uc ]
+[e $ > -> _i `i -> 31 `i 198  ]
+[e $U 199  ]
+[e :U 198 ]
+{
+"357
+[; ;machorrobot.c: 357:         angulos[0] = i;
+[e = *U + &U _angulos * -> -> -> 0 `i `ui `ux -> -> # *U &U _angulos `ui `ux _i ]
+"358
+[; ;machorrobot.c: 358:         _delay((unsigned long)((10)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"359
+[; ;machorrobot.c: 359:     }
+}
+[e -- _i -> -> 1 `i `uc ]
+[e $ > -> _i `i -> 31 `i 198  ]
+[e :U 199 ]
+}
+"360
+[; ;machorrobot.c: 360:     for (char i = 64; i<95; i++){
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 64 `i `uc ]
+[e $ < -> _i `i -> 95 `i 201  ]
+[e $U 202  ]
+[e :U 201 ]
+{
+"361
+[; ;machorrobot.c: 361:        angulos[1] = i;
+[e = *U + &U _angulos * -> -> -> 1 `i `ui `ux -> -> # *U &U _angulos `ui `ux _i ]
+"362
+[; ;machorrobot.c: 362:         _delay((unsigned long)((10)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"363
+[; ;machorrobot.c: 363:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 95 `i 201  ]
+[e :U 202 ]
+}
+"364
+[; ;machorrobot.c: 364:     for (char i = 31; i <64; i++){
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 31 `i `uc ]
+[e $ < -> _i `i -> 64 `i 204  ]
+[e $U 205  ]
+[e :U 204 ]
+{
+"365
+[; ;machorrobot.c: 365:         angulos[0] = i;
+[e = *U + &U _angulos * -> -> -> 0 `i `ui `ux -> -> # *U &U _angulos `ui `ux _i ]
+"366
+[; ;machorrobot.c: 366:         _delay((unsigned long)((10)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"367
+[; ;machorrobot.c: 367:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 64 `i 204  ]
+[e :U 205 ]
+}
+"368
+[; ;machorrobot.c: 368:     for (char i = 95; i >64; i--){
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 95 `i `uc ]
+[e $ > -> _i `i -> 64 `i 207  ]
+[e $U 208  ]
+[e :U 207 ]
+{
+"369
+[; ;machorrobot.c: 369:         angulos[1] = i;
+[e = *U + &U _angulos * -> -> -> 1 `i `ui `ux -> -> # *U &U _angulos `ui `ux _i ]
+"370
+[; ;machorrobot.c: 370:         _delay((unsigned long)((10)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 10 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"371
+[; ;machorrobot.c: 371:     }
+}
+[e -- _i -> -> 1 `i `uc ]
+[e $ > -> _i `i -> 64 `i 207  ]
+[e :U 208 ]
+}
+"373
+[; ;machorrobot.c: 373: }
+[e :UE 197 ]
+}
+"374
+[; ;machorrobot.c: 374: void caminar(){
+[v _caminar `(v ~T0 @X0 1 ef ]
+{
+[e :U _caminar ]
+[f ]
+"376
+[; ;machorrobot.c: 376:     for (char i = 64; i > 42; i--){
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 64 `i `uc ]
+[e $ > -> _i `i -> 42 `i 211  ]
+[e $U 212  ]
+[e :U 211 ]
+{
+"377
+[; ;machorrobot.c: 377:         angulos[2] = i;
+[e = *U + &U _angulos * -> -> -> 2 `i `ui `ux -> -> # *U &U _angulos `ui `ux _i ]
+"378
+[; ;machorrobot.c: 378:         angulos[0] = i;
+[e = *U + &U _angulos * -> -> -> 0 `i `ui `ux -> -> # *U &U _angulos `ui `ux _i ]
+"380
+[; ;machorrobot.c: 380:         _delay((unsigned long)((100)*(4000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 4000000 `l `d .4000.0 `ul ]
+"381
+[; ;machorrobot.c: 381:     }
+}
+[e -- _i -> -> 1 `i `uc ]
+[e $ > -> _i `i -> 42 `i 211  ]
+[e :U 212 ]
+}
+"421
+[; ;machorrobot.c: 421: }
+[e :UE 210 ]
+}
+"425
+[; ;machorrobot.c: 425: void initUart(){
+[v _initUart `(v ~T0 @X0 1 ef ]
+{
+[e :U _initUart ]
+[f ]
+"427
+[; ;machorrobot.c: 427:     TXSTAbits.TX9 = 0;
+[e = . . _TXSTAbits 0 6 -> -> 0 `i `uc ]
+"428
+[; ;machorrobot.c: 428:     TXSTAbits.TXEN = 1;
+[e = . . _TXSTAbits 0 5 -> -> 1 `i `uc ]
+"429
+[; ;machorrobot.c: 429:     TXSTAbits.SYNC = 0;
+[e = . . _TXSTAbits 0 4 -> -> 0 `i `uc ]
+"431
+[; ;machorrobot.c: 431:     TXSTAbits.BRGH = 1;
+[e = . . _TXSTAbits 0 2 -> -> 1 `i `uc ]
+"433
+[; ;machorrobot.c: 433:     RCSTAbits.SPEN = 1;
+[e = . . _RCSTAbits 0 7 -> -> 1 `i `uc ]
+"434
+[; ;machorrobot.c: 434:     RCSTAbits.RX9 = 0 ;
+[e = . . _RCSTAbits 0 6 -> -> 0 `i `uc ]
+"435
+[; ;machorrobot.c: 435:     RCSTAbits.CREN = 1;
+[e = . . _RCSTAbits 0 4 -> -> 1 `i `uc ]
+"440
+[; ;machorrobot.c: 440:     SPBRG = 12;
+[e = _SPBRG -> -> 12 `i `uc ]
+"442
+[; ;machorrobot.c: 442:     PIE1bits.RCIE = 1;
+[e = . . _PIE1bits 0 5 -> -> 1 `i `uc ]
+"444
+[; ;machorrobot.c: 444:     INTCONbits.PEIE = 1;
+[e = . . _INTCONbits 0 6 -> -> 1 `i `uc ]
+"446
+[; ;machorrobot.c: 446: }
+[e :UE 214 ]
+}
+"449
+[; ;machorrobot.c: 449: void SendChar(const char caracter) {
+[v _SendChar `(v ~T0 @X0 1 ef1`Cuc ]
+{
+[e :U _SendChar ]
+[v _caracter `Cuc ~T0 @X0 1 r1 ]
+[f ]
+"450
+[; ;machorrobot.c: 450:     while (TXSTAbits.TRMT == 0);
+[e $U 216  ]
+[e :U 217 ]
+[e :U 216 ]
+[e $ == -> . . _TXSTAbits 0 1 `i -> 0 `i 217  ]
+[e :U 218 ]
+"451
+[; ;machorrobot.c: 451:     TXREG = caracter ;
+[e = _TXREG -> _caracter `uc ]
+"452
+[; ;machorrobot.c: 452: }
+[e :UE 215 ]
+}
+"455
+[; ;machorrobot.c: 455: void SendString(const char* string, const uint8_t largo) {
+[v _SendString `(v ~T0 @X0 1 ef2`*Cuc`Cuc ]
+{
+[e :U _SendString ]
+[v _string `*Cuc ~T0 @X0 1 r1 ]
+[v _largo `Cuc ~T0 @X0 1 r2 ]
+[f ]
+"456
+[; ;machorrobot.c: 456:     int i = 0;
+[v _i `i ~T0 @X0 1 a ]
+[e = _i -> 0 `i ]
+"457
+[; ;machorrobot.c: 457:     for (i=0 ; i<largo && string[i]!='\0' ; i++) {
+{
+[e = _i -> 0 `i ]
+[e $U 223  ]
+[e :U 220 ]
+{
+"458
+[; ;machorrobot.c: 458:         SendChar(string[i]);
+[e ( _SendChar (1 *U + _string * -> _i `x -> -> # *U _string `i `x ]
+"459
+[; ;machorrobot.c: 459:     }
+}
+[e ++ _i -> 1 `i ]
+[e :U 223 ]
+[e $ && < _i -> _largo `i != -> *U + _string * -> _i `x -> -> # *U _string `i `x `ui -> 0 `ui 220  ]
+[e :U 221 ]
+}
+"460
+[; ;machorrobot.c: 460: }
+[e :UE 219 ]
+}
+"462
+[; ;machorrobot.c: 462: void ejecutarComando(){
+[v _ejecutarComando `(v ~T0 @X0 1 ef ]
+{
+[e :U _ejecutarComando ]
+[f ]
+"464
+[; ;machorrobot.c: 464:     int numeros = atoi(numero);
+[v _numeros `i ~T0 @X0 1 a ]
+[e = _numeros ( _atoi (1 -> &U _numero `*Cuc ]
+"467
+[; ;machorrobot.c: 467:     PORTBbits.RB7 = ~PORTBbits.RB7;
+[e = . . _PORTBbits 0 7 -> ~ -> . . _PORTBbits 0 7 `i `uc ]
+"468
+[; ;machorrobot.c: 468:     SendString(numero,4);
+[e ( _SendString (2 , -> &U _numero `*Cuc -> -> 4 `i `uc ]
+"469
+[; ;machorrobot.c: 469:     SendChar('\n');
+[e ( _SendChar (1 -> -> 10 `ui `uc ]
+"470
+[; ;machorrobot.c: 470:     numero[0] = ' ';
+[e = *U + &U _numero * -> -> -> 0 `i `ui `ux -> -> # *U &U _numero `ui `ux -> -> 32 `ui `uc ]
+"471
+[; ;machorrobot.c: 471:     numero[1] = ' ';
+[e = *U + &U _numero * -> -> -> 1 `i `ui `ux -> -> # *U &U _numero `ui `ux -> -> 32 `ui `uc ]
+"472
+[; ;machorrobot.c: 472:     numero[2] = ' ';
+[e = *U + &U _numero * -> -> -> 2 `i `ui `ux -> -> # *U &U _numero `ui `ux -> -> 32 `ui `uc ]
+"473
+[; ;machorrobot.c: 473:     numero[3] = '\0';
+[e = *U + &U _numero * -> -> -> 3 `i `ui `ux -> -> # *U &U _numero `ui `ux -> -> 0 `ui `uc ]
+"474
+[; ;machorrobot.c: 474:     switch(comando){
+[e $U 226  ]
+{
+"475
+[; ;machorrobot.c: 475:         case 'A':
+[e :U 227 ]
+"476
+[; ;machorrobot.c: 476:             angulos[0] = numeros;
+[e = *U + &U _angulos * -> -> -> 0 `i `ui `ux -> -> # *U &U _angulos `ui `ux -> _numeros `uc ]
+"477
+[; ;machorrobot.c: 477:             break;
+[e $U 225  ]
+"478
+[; ;machorrobot.c: 478:         case 'B':
+[e :U 228 ]
+"479
+[; ;machorrobot.c: 479:             angulos[1] = numeros;
+[e = *U + &U _angulos * -> -> -> 1 `i `ui `ux -> -> # *U &U _angulos `ui `ux -> _numeros `uc ]
+"480
+[; ;machorrobot.c: 480:             break;
+[e $U 225  ]
+"481
+[; ;machorrobot.c: 481:         case 'C':
+[e :U 229 ]
+"482
+[; ;machorrobot.c: 482:             moveCCPservo(numeros,1);
+[e ( _moveCCPservo (2 , -> _numeros `uc -> -> 1 `i `uc ]
+"483
+[; ;machorrobot.c: 483:             break;
+[e $U 225  ]
+"484
+[; ;machorrobot.c: 484:         case 'D':
+[e :U 230 ]
+"485
+[; ;machorrobot.c: 485:             moveCCPservo(numeros,2);
+[e ( _moveCCPservo (2 , -> _numeros `uc -> -> 2 `i `uc ]
+"486
+[; ;machorrobot.c: 486:             break;
+[e $U 225  ]
+"487
+[; ;machorrobot.c: 487:         case 'E':
+[e :U 231 ]
+"488
+[; ;machorrobot.c: 488:             angulos[2] = numeros;
+[e = *U + &U _angulos * -> -> -> 2 `i `ui `ux -> -> # *U &U _angulos `ui `ux -> _numeros `uc ]
+"489
+[; ;machorrobot.c: 489:             break;
+[e $U 225  ]
+"490
+[; ;machorrobot.c: 490:         case 'F':
+[e :U 232 ]
+"491
+[; ;machorrobot.c: 491:             angulos[3] = numeros;
+[e = *U + &U _angulos * -> -> -> 3 `i `ui `ux -> -> # *U &U _angulos `ui `ux -> _numeros `uc ]
+"492
+[; ;machorrobot.c: 492:             break;
+[e $U 225  ]
+"493
+[; ;machorrobot.c: 493:     }
+}
+[e $U 225  ]
+[e :U 226 ]
+[e [\ -> _comando `i , $ -> -> 65 `ui `i 227
+ , $ -> -> 66 `ui `i 228
+ , $ -> -> 67 `ui `i 229
+ , $ -> -> 68 `ui `i 230
+ , $ -> -> 69 `ui `i 231
+ , $ -> -> 70 `ui `i 232
+ 225 ]
+[e :U 225 ]
+"495
+[; ;machorrobot.c: 495: }
+[e :UE 224 ]
+}
+"499
+[; ;machorrobot.c: 499: void writeEEPROM(char data, char direccion){
+[v _writeEEPROM `(v ~T0 @X0 1 ef2`uc`uc ]
+{
+[e :U _writeEEPROM ]
+[v _data `uc ~T0 @X0 1 r1 ]
+[v _direccion `uc ~T0 @X0 1 r2 ]
+[f ]
+"501
+[; ;machorrobot.c: 501:     EEADR = direccion;
+[e = _EEADR -> _direccion `uc ]
+"502
+[; ;machorrobot.c: 502:     EEADRH = 0;
+[e = _EEADRH -> -> 0 `i `uc ]
+"504
+[; ;machorrobot.c: 504:     EEDATA = data;
+[e = _EEDATA -> _data `uc ]
+"506
+[; ;machorrobot.c: 506:     EECON1bits.EEPGD = 0;
+[e = . . _EECON1bits 0 5 -> -> 0 `i `uc ]
+"507
+[; ;machorrobot.c: 507:     EECON1bits.WREN = 1;
+[e = . . _EECON1bits 0 2 -> -> 1 `i `uc ]
+"510
+[; ;machorrobot.c: 510:     INTCONbits.GIE = 0;
+[e = . . _INTCONbits 0 7 -> -> 0 `i `uc ]
+"512
+[; ;machorrobot.c: 512:     while(INTCONbits.GIE);
+[e $U 234  ]
+[e :U 235 ]
+[e :U 234 ]
+[e $ != -> . . _INTCONbits 0 7 `i -> 0 `i 235  ]
+[e :U 236 ]
+"514
+[; ;machorrobot.c: 514:     EECON2 = 0x55;
+[e = _EECON2 -> -> 85 `i `uc ]
+"515
+[; ;machorrobot.c: 515:     EECON2 = 0xAA;
+[e = _EECON2 -> -> 170 `i `uc ]
+"516
+[; ;machorrobot.c: 516:     EECON1bits.WR = 1;
+[e = . . _EECON1bits 0 1 -> -> 1 `i `uc ]
+"518
+[; ;machorrobot.c: 518:     INTCONbits.GIE = 1;
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"519
+[; ;machorrobot.c: 519:     EECON1bits.WREN = 0;
+[e = . . _EECON1bits 0 2 -> -> 0 `i `uc ]
+"521
+[; ;machorrobot.c: 521: }
+[e :UE 233 ]
+}
+"523
+[; ;machorrobot.c: 523: char readEEPROM(char direccion){
+[v _readEEPROM `(uc ~T0 @X0 1 ef1`uc ]
+{
+[e :U _readEEPROM ]
+[v _direccion `uc ~T0 @X0 1 r1 ]
+[f ]
+"525
+[; ;machorrobot.c: 525:     EEADR = direccion;
+[e = _EEADR -> _direccion `uc ]
+"526
+[; ;machorrobot.c: 526:     EECON1bits.EEPGD = 0;
+[e = . . _EECON1bits 0 5 -> -> 0 `i `uc ]
+"527
+[; ;machorrobot.c: 527:     EECON1bits.RD = 1;
+[e = . . _EECON1bits 0 0 -> -> 1 `i `uc ]
+"529
+[; ;machorrobot.c: 529:     return EEDATA;
+[e ) -> _EEDATA `uc ]
+[e $UE 237  ]
+"530
+[; ;machorrobot.c: 530: }
+[e :UE 237 ]
+}
+"532
+[; ;machorrobot.c: 532: void savePosition(){
+[v _savePosition `(v ~T0 @X0 1 ef ]
+{
+[e :U _savePosition ]
+[f ]
+"534
+[; ;machorrobot.c: 534:     SendString("Guardando Posiciones:\n",75);
+[e ( _SendString (2 , :s 1C -> -> 75 `i `uc ]
+"535
+[; ;machorrobot.c: 535:     for (char i = 0; i<4; i++){
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 4 `i 239  ]
+[e $U 240  ]
+[e :U 239 ]
+{
+"536
+[; ;machorrobot.c: 536:         writeEEPROM(angulos[i],i);
+[e ( _writeEEPROM (2 , *U + &U _angulos * -> _i `ux -> -> # *U &U _angulos `ui `ux _i ]
+"538
+[; ;machorrobot.c: 538:         itoa(debug,i+1,10);
+[e ( _itoa (3 , , &U _debug + -> _i `i -> 1 `i -> 10 `i ]
+"539
+[; ;machorrobot.c: 539:         SendString(debug,6);
+[e ( _SendString (2 , -> &U _debug `*Cuc -> -> 6 `i `uc ]
+"540
+[; ;machorrobot.c: 540:         SendString(") ",5);
+[e ( _SendString (2 , :s 2C -> -> 5 `i `uc ]
+"541
+[; ;machorrobot.c: 541:         itoa(debug,angulos[i],10);
+[e ( _itoa (3 , , &U _debug -> *U + &U _angulos * -> _i `ux -> -> # *U &U _angulos `ui `ux `i -> 10 `i ]
+"542
+[; ;machorrobot.c: 542:         SendString(debug,6);
+[e ( _SendString (2 , -> &U _debug `*Cuc -> -> 6 `i `uc ]
+"543
+[; ;machorrobot.c: 543:         SendChar('\n');
+[e ( _SendChar (1 -> -> 10 `ui `uc ]
+"544
+[; ;machorrobot.c: 544:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 4 `i 239  ]
+[e :U 240 ]
+}
+"545
+[; ;machorrobot.c: 545:     writeEEPROM(CCPR1L,4);
+[e ( _writeEEPROM (2 , -> _CCPR1L `uc -> -> 4 `i `uc ]
+"546
+[; ;machorrobot.c: 546:     SendString("5) ",4);
+[e ( _SendString (2 , :s 3C -> -> 4 `i `uc ]
+"547
+[; ;machorrobot.c: 547:     itoa(debug,CCPR1L,10);
+[e ( _itoa (3 , , &U _debug -> _CCPR1L `i -> 10 `i ]
+"548
+[; ;machorrobot.c: 548:     SendString(debug,6);
+[e ( _SendString (2 , -> &U _debug `*Cuc -> -> 6 `i `uc ]
+"549
+[; ;machorrobot.c: 549:     SendChar('\n');
+[e ( _SendChar (1 -> -> 10 `ui `uc ]
+"550
+[; ;machorrobot.c: 550:     writeEEPROM(CCPR2L,5);
+[e ( _writeEEPROM (2 , -> _CCPR2L `uc -> -> 5 `i `uc ]
+"551
+[; ;machorrobot.c: 551:     SendString("6) ",4);
+[e ( _SendString (2 , :s 4C -> -> 4 `i `uc ]
+"552
+[; ;machorrobot.c: 552:     itoa(debug,CCPR2L,10);
+[e ( _itoa (3 , , &U _debug -> _CCPR2L `i -> 10 `i ]
+"553
+[; ;machorrobot.c: 553:     SendString(debug,6);
+[e ( _SendString (2 , -> &U _debug `*Cuc -> -> 6 `i `uc ]
+"554
+[; ;machorrobot.c: 554:     SendChar('\n');
+[e ( _SendChar (1 -> -> 10 `ui `uc ]
+"556
+[; ;machorrobot.c: 556: }
+[e :UE 238 ]
+}
+"558
+[; ;machorrobot.c: 558: void readPosition(){
+[v _readPosition `(v ~T0 @X0 1 ef ]
+{
+[e :U _readPosition ]
+[f ]
+"559
+[; ;machorrobot.c: 559:     SendString("Colocando Posiciones:\n",75);
+[e ( _SendString (2 , :s 5C -> -> 75 `i `uc ]
+"560
+[; ;machorrobot.c: 560:     for (char i = 0; i<4; i++){
+{
+[v _i `uc ~T0 @X0 1 a ]
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 4 `i 243  ]
+[e $U 244  ]
+[e :U 243 ]
+{
+"562
+[; ;machorrobot.c: 562:         angulos[i] = readEEPROM(i);
+[e = *U + &U _angulos * -> _i `ux -> -> # *U &U _angulos `ui `ux ( _readEEPROM (1 _i ]
+"563
+[; ;machorrobot.c: 563:         itoa(debug,i+1,10);
+[e ( _itoa (3 , , &U _debug + -> _i `i -> 1 `i -> 10 `i ]
+"564
+[; ;machorrobot.c: 564:         SendString(debug,6);
+[e ( _SendString (2 , -> &U _debug `*Cuc -> -> 6 `i `uc ]
+"565
+[; ;machorrobot.c: 565:         SendString(") ",5);
+[e ( _SendString (2 , :s 6C -> -> 5 `i `uc ]
+"566
+[; ;machorrobot.c: 566:         itoa(debug,angulos[i],10);
+[e ( _itoa (3 , , &U _debug -> *U + &U _angulos * -> _i `ux -> -> # *U &U _angulos `ui `ux `i -> 10 `i ]
+"567
+[; ;machorrobot.c: 567:         SendString(debug,6);
+[e ( _SendString (2 , -> &U _debug `*Cuc -> -> 6 `i `uc ]
+"568
+[; ;machorrobot.c: 568:         SendChar('\n');
+[e ( _SendChar (1 -> -> 10 `ui `uc ]
+"569
+[; ;machorrobot.c: 569:     }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 4 `i 243  ]
+[e :U 244 ]
+}
+"570
+[; ;machorrobot.c: 570:     CCPR1L = readEEPROM(4);
+[e = _CCPR1L -> ( _readEEPROM (1 -> -> 4 `i `uc `uc ]
+"571
+[; ;machorrobot.c: 571:     SendString("5) ",4);
+[e ( _SendString (2 , :s 7C -> -> 4 `i `uc ]
+"572
+[; ;machorrobot.c: 572:     itoa(debug,CCPR1L,10);
+[e ( _itoa (3 , , &U _debug -> _CCPR1L `i -> 10 `i ]
+"573
+[; ;machorrobot.c: 573:     SendString(debug,6);
+[e ( _SendString (2 , -> &U _debug `*Cuc -> -> 6 `i `uc ]
+"574
+[; ;machorrobot.c: 574:     SendChar('\n');
+[e ( _SendChar (1 -> -> 10 `ui `uc ]
+"575
+[; ;machorrobot.c: 575:     CCPR2L = readEEPROM(5);
+[e = _CCPR2L -> ( _readEEPROM (1 -> -> 5 `i `uc `uc ]
+"576
+[; ;machorrobot.c: 576:     SendString("6) ",4);
+[e ( _SendString (2 , :s 8C -> -> 4 `i `uc ]
+"577
+[; ;machorrobot.c: 577:     itoa(debug,CCPR2L,10);
+[e ( _itoa (3 , , &U _debug -> _CCPR2L `i -> 10 `i ]
+"578
+[; ;machorrobot.c: 578:     SendString(debug,6);
+[e ( _SendString (2 , -> &U _debug `*Cuc -> -> 6 `i `uc ]
+"579
+[; ;machorrobot.c: 579:     SendChar('\n');
+[e ( _SendChar (1 -> -> 10 `ui `uc ]
+"580
+[; ;machorrobot.c: 580: }
+[e :UE 242 ]
+}
+[a 4C 54 41 32 0 ]
+[a 8C 54 41 32 0 ]
+[a 3C 53 41 32 0 ]
+[a 7C 53 41 32 0 ]
+[a 2C 41 32 0 ]
+[a 6C 41 32 0 ]
+[a 1C 71 117 97 114 100 97 110 100 111 32 80 111 115 105 99 105 111 110 101 115 58 10 0 ]
+[a 5C 67 111 108 111 99 97 110 100 111 32 80 111 115 105 99 105 111 110 101 115 58 10 0 ]
